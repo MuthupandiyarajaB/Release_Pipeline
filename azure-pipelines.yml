@@ -13,7 +13,3 @@ steps:
 - task: UseNode@1
   inputs:
     checkLatest: true
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
