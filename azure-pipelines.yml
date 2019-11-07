@@ -18,7 +18,7 @@ steps:
 
 - script: |
   echo Calling batch file
-  call ci\Code.bat
+  call Code.bat
   displayName: 'Execute Batch file'
 
 - script: |
