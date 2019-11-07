@@ -18,7 +18,7 @@ steps:
 
 - script: |
   echo Calling batch file
-  call Code.bat
+  call C:\Muthu\Automation\Release_Pipeline\Code.bat
   displayName: 'Execute Batch file'
 
 - script: |
