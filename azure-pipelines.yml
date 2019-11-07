@@ -13,6 +13,3 @@ steps:
 - task: UseNode@1
   inputs:
     checkLatest: true
-- task: Npm@1
-  inputs:
-    command: 'install'
