@@ -16,9 +16,17 @@ steps:
 - script: echo Muthu!
   displayName: 'Added Muthu'
 
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '10.x'
+  displayName: 'Install Node.js'
+
 - script: |
-   echo npm install!
-   displayName: 'Install npm'
+    npm install
+    npm run tsc
+  displayName: 'npm install and build'
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
