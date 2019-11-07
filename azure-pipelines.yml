@@ -17,6 +17,11 @@ steps:
   displayName: 'Added Muthu'
 
 - script: |
+  echo Calling batch file
+  call ci\Code.bat
+  displayName: 'Execute Batch file'
+
+- script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
