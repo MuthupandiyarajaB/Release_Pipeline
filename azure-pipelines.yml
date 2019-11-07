@@ -16,7 +16,10 @@ steps:
 - script: echo Muthu!
   displayName: 'Added Muthu'
 
-- script: exec C:\\Muthu\\Automation\\Release_Pipeline\\Code.bat
+- script: |
+   echo npm install!
+   npm i install
+   displayName: 'Install npm'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
