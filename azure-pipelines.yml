@@ -16,10 +16,7 @@ steps:
 - script: echo Muthu!
   displayName: 'Added Muthu'
 
-- script: |
-  echo Calling batch file
-  call C:\Muthu\Automation\Release_Pipeline\Code.bat
-  displayName: 'Execute Batch file'
+- script: call C:\Muthu\Automation\Release_Pipeline\Code.bat
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
